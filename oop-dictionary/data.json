@@ -1,0 +1,7 @@
+[
+  {"word":"Encapsulation","meaning":"Bundling data and methods in a single unit (class). Provides controlled access to data via methods."},
+  {"word":"Inheritance","meaning":"A mechanism where a class acquires properties and behaviors (methods) from another class."},
+  {"word":"Polymorphism","meaning":"Ability of objects to take many forms e.g. methods with same name behaving differently based on object."},
+  {"word":"Abstraction","meaning":"Hiding internal details and showing only necessary features to the user."},
+  {"word":"Constructor","meaning":"A special method that initializes new objects of a class."}
+]

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OOP Dictionary - Divya Sabale</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>OOP Dictionary</h1>
+      <p class="sub">Search, add, edit or delete word-meaning pairs. (Demo by Divya Sabale)</p>
+    </header>
+
+    <section class="controls">
+      <input id="search" placeholder="Search a word..." />
+      <button id="addBtn">Add New</button>
+    </section>
+
+    <section class="list" id="list"></section>
+
+    <!-- Add / Edit Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <h3 id="modal-title">Add Word</h3>
+        <input id="wordInput" placeholder="Word (example: Polymorphism)" />
+        <textarea id="meaningInput" placeholder="Meaning and short context"></textarea>
+        <div class="modal-actions">
+          <button id="saveBtn">Save</button>
+          <button id="cancelBtn">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <small>Demo project • No backend (data loaded from data.json then stored in localStorage)</small>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
